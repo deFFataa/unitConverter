@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 700px;
+    width: 550px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.boxOne{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6943FF;
+}
+
+.headingOne{
+    padding: 35px 40px;
+    font-size: 27px;
+    margin: 0 auto;
+}
+
+.inputForm{
+    width: 120px;
+    height: 85px;
+    background: none;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px #B295FF;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+button{
+    background: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    width: 120px;
+    margin: 0 auto;
+    padding: 8px 0;
+    margin-bottom: 40px;
+}
+
+.boxTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 40px 40px;
+}
+
+.innerBox{
+    background-color: #273549;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.headingInner{
+    color: #CCC1FF;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contentInner{
+    font-size: 12px;
+}
